@@ -11,7 +11,7 @@ def CalculadoraAdicaoSubtracao (numero, outronumero, operacao):
   if operacao == '+':
     return numero + outronumero
 
-  # Se operacao tiver o sinal '-', será feito a soma do N1 - N2
+  # Se operacao tiver o sinal '-', será feito a subtração do N1 - N2
   elif operacao == '-':
     return numero + outronumero
 
